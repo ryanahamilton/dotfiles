@@ -1,0 +1,8 @@
+[user]
+  name = Ryan Hamilton
+  email = …@gmail.com
+[github]
+  user = ryanahamilton
+  token = f…
+[core]
+  excludesfile = /Users/ryanahamilton/.gitignore_global

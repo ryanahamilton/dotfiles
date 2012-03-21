@@ -1,0 +1,36 @@
+# cd
+alias ..='cd ..'
+
+# ls
+alias ls='ls -Fa'
+alias la="ls -la"
+alias l="ls -lh"
+
+# git
+alias gb='git branch'
+alias gba='git branch -a'
+alias ga='git add'
+alias gc='git commit -v'
+alias gd='git diff | mate'
+alias gst='git status'
+alias gpd='git config --add push.default current'
+
+# Ruby
+alias irb='irb --readline -r irb/completion'
+
+# Rails
+alias ss='script/server'
+alias sc='script/console'
+alias sg='script/generate'
+
+# applications
+alias m='mate'
+alias dns='sudo dscacheutil -flushcache'
+
+# MySQL & Apache
+alias on='mysql.server start && sudo /usr/sbin/apachectl restart'
+alias off='mysql.server stop && sudo /usr/sbin/apachectl stop'
+
+# Mongo DB
+alias mdbstart='/usr/local/Cellar/mongodb/1.8.2-x86_64/bin/mongod'
+alias mdbshell='/usr/local/Cellar/mongodb/1.8.2-x86_64/bin/mongo'
